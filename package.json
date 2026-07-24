@@ -1,0 +1,25 @@
+{
+  "name": "vguitarengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+  "build": "esbuild src/main.js --bundle --outfile=dist/VGuitarABS.js",
+  "watch": "esbuild src/main.js --bundle --outfile=dist/VGuitarABS.js --watch"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinybag/VGuitarEngine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vinybag/VGuitarEngine/issues"
+  },
+  "homepage": "https://github.com/vinybag/VGuitarEngine#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
